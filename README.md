@@ -3,7 +3,7 @@
   This repository implements YOLOv3 and DeepSORT for tracking and counting of 2 different fish species in an aquarium.
 YOLO(You only look once) uses CNN to detect objects in real time. A single neural network is applied to the full image by the algorithm and the image is divided into regions, predicts bounding boxes and the probabilities for each region. Then the predicted probabilities weight the bounding boxes. We can use these detections to feed DeepSORT(Simple Online and Realtime Tracking with a Deep Association Metric) in order to track the fish. Main purpose of this repository after tracking the fish, to store the fish movements in other word behaviors and to count the fish going one place to another. <Enter>
   
-![Fish Tracking and Counting](https://github.com/Fjolnirr/fish_tracker/tree/master/data/gifs/output14-gif.gif)
+![Fish Tracking and Counting](data/gifs/output14-gif.gif)
 
 ##### You can check out the youtube video of the result on the link below:
 <a href="https://www.youtube.com/watch?v=Fu2W3UVwYIE
@@ -27,8 +27,8 @@ Enter the below lines to your anaconda prompt to be able run the fish tracker.
 #yolov3-custom (add --tiny flag if your custom weights were trained for tiny model)
 python object_tracker.py --video ./data/video/your_test_video.mp4 --output ./data/video/results.avi --weights ./weights/yolov3-custom.tf --num_classes <# CLASSES> --classes ./data/labels/<YOUR CUSTOM .names FILE>
 ```
-### I have not build a repository for training part of this project but you can check out theAIGuysCode youtube channel https://www.youtube.com/watch?v=10joRJt39Ns
-### Also, If you contact me, I can share the weights of this fish tracking project for you to try the test video.
+#### I have not build a repository for training part of this project but you can check out theAIGuysCode youtube channel https://www.youtube.com/watch?v=10joRJt39Ns
+##### Also, If you contact me, I can share the weights of this fish tracking project for you to try the test video.
 
 # Acknowledgements
 
