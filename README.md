@@ -30,7 +30,7 @@ python object_tracker.py --video ./data/video/your_test_video.mp4 --output ./dat
 #### I have not build a repository for training part of this project but you can check out theAIGuysCode youtube channel https://www.youtube.com/watch?v=10joRJt39Ns
 ##### Also, If you contact me, I can share the weights of this fish tracking project for you to try the test video.
 
-# Acknowledgements
+# References
 
 [DeepSORT Repository](https://github.com/nwojke/deep_sort) <Enter>
   
