@@ -28,7 +28,6 @@ Enter the below lines to your anaconda prompt to be able run the fish tracker.
 python object_tracker.py --video ./data/video/your_test_video.mp4 --output ./data/video/results.avi --weights ./weights/yolov3-custom.tf --num_classes <# CLASSES> --classes ./data/labels/<YOUR CUSTOM .names FILE>
 ```
 #### I have not build a repository for training part of this project but you can check out theAIGuysCode youtube channel https://www.youtube.com/watch?v=10joRJt39Ns
-##### Also, If you contact me, I can share the weights of this fish tracking project for you to try the test video.
 
 # References
 
