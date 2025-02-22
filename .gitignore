@@ -3,3 +3,4 @@ detection.txt
 *.tf
 *.tf.*
 checkpoint
+*.csv
