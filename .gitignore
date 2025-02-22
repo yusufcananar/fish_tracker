@@ -1,0 +1,5 @@
+detection.txt
+*.weights
+*.tf
+*.tf.*
+checkpoint
